@@ -4,7 +4,7 @@ Proof of Fibertel DPI (https://en.wikipedia.org/wiki/Deep_packet_inspection) for
 
 # Short story
 
-I found I can counter my ISP measures creating a stunnel-ed- OpenVPN connection to the internet, I've used port 443 but I think as they're using DPI it doesn't matter. I used it to make sure I didn't hit a second filtering mechanism. If the traffic looks like HTTPs it goes uncapped (only capped to the speed you pay for) if it's not then you've a cap for regular traffic (http and who knows what else) and a second slower cap for everything else (torrents, video calls, regular vpn connections, etc).
+I found I can counter my ISP measures creating a stunnel-ed- OpenVPN connection to the internet, I've used port 443 but I think as they're using DPI it doesn't matter. I used it to make sure I didn't hit a second filtering mechanism. If the traffic looks like HTTPs it goes uncapped (only capped to the speed you pay for) if looks like something else then you're a capped level 1 (http and who knows what else) and a second slower cap, level 2 internet fucking, for everything else (torrents, video calls, regular vpn connections, etc).
 
 I ran some tests on video, the results are in testing.txt, the video: https://youtu.be/--y2S0syxVI
 
