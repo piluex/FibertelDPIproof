@@ -1,23 +1,26 @@
 Testing Fibertel DPI policy : )
 --------------------------------
 No vpn:
-Fibertel (Prima) <-> Optimum online
-Test 1:
-Test 2:
-Test 3:
-Regular UDP vpn (should be the faster VPN) port 1194:
-Fibertel (Prima) <-> NYC Digital Ocean OpenVPN <-> Optimum online
-Test 1:
-Test 2:
-Test 3:
-Regular TCP vpn (should be the slower VPN) port 443:
-Fibertel (Prima) <-> NYC Digital Ocean OpenVPN <-> Optimum online
-Test 1:
-Test 2:
-Test 3:
-Regular TCP vpn tunneled with stunnel (should be slower, too much overhead!):
-Fibertel (Prima) <-> NYC Digital Ocean stunnel <-> OpenVPN (same host) <-> Optimum online
-Test 1:
-Test 2:
-Test 3:
+Fibertel (Prima) - Optimum online 00:00
+Test 1: Ping: 159ms DL: 9.63 mbps UL: 2.60 mbps http://www.speedtest.net/result/5386933069.png
+Test 2: Ping: 157ms DL: 8.72 mbps UL: 2.72 mbps http://www.speedtest.net/result/5386934603.png
+Test 3: Ping: 159ms DL: 9.10 mbps UL: 2.56 mbps http://www.speedtest.net/result/5386936111.png
+Test 4 (after all other tests to verify): Ping: 155ms DL: 8.25mbps UL: 2.52mbps http://www.speedtest.net/result/5386956956.png
 
+Regular UDP vpn (should be the faster VPN) port 1194: 4:50
+Fibertel (Prima) - NYC Digital Ocean OpenVPN - Optimum online
+Test 1: Ping: 172ms DL: 4.19 mbps UL: 2.26 mbps http://www.speedtest.net/result/5386939223.png
+Test 2: Ping: 163ms DL: 4.25 mbps UL: 2.32 mbps http://www.speedtest.net/result/5386940724.png
+Test 3: Ping: 159ms DL: 4.61 mbps UL: 1.98 mbps http://www.speedtest.net/result/5386942090.png
+
+Regular TCP vpn (should be the slower VPN) port 443: 8:50
+Fibertel (Prima) - NYC Digital Ocean OpenVPN - Optimum online
+Test 1: Ping: 168ms DL: 2.09 mbps UL: 1.54 mbps http://www.speedtest.net/result/5386945278.png
+Test 2: Ping: 165ms DL: 2.08 mbps UL: 1.36 mbps http://www.speedtest.net/result/5386946803.png
+Test 3: Ping: 165ms DL: 2.10 mbps UL: 1.52 mbps http://www.speedtest.net/result/5386948206.png
+
+Regular TCP vpn tunneled with stunnel (should be slower, too much overhead!): 14:00
+Fibertel (Prima) - NYC Digital Ocean stunnel - OpenVPN (same host) - Optimum online
+Test 1: Ping: 160ms DL: 19.52 mbps UL: 2.38 mbps http://www.speedtest.net/result/5386952254.png
+Test 2: Ping: 159ms DL: 17.09 mbps UL: 2.51 mbps http://www.speedtest.net/result/5386953655.png
+Test 3: Ping: 160ms DL: 22.95 mbps UL: 2.56 mbps http://www.speedtest.net/result/5386954912.png
