@@ -14,7 +14,8 @@ cd easy-rsa/easyrsa3
 ./easyrsa build-server-full deby-1
 ./easyrsa build-client-full client-1
 ./easyrsa gen-dh
-#Done with rsa stuff, 
+#Done with rsa stuff...
+#To remove passphrases of the generated keys openssl rsa -in haha-im-encrypted.key -out steal-me.key
 #Create TLS key for control channel
 cd
 openvpn --genkey --private ta.key
@@ -44,4 +45,8 @@ nano /etc/ufw/before.rules
 #-A POSTROUTING -s 10.42.0.0/8 -o eth0 -j MASQUERADE
 #COMMIT
 ## END OPENVPN RULES
-#systemctl stop openvpn@server
+ufw enable
+#start openvpn
+systemctl start openvpn@server
+#to start stunnel
+stunnel4
