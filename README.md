@@ -24,4 +24,4 @@ To make some sense of this, I ran some tests (check testing.txt) on a typical Wi
 
 # Future goals
 
-Make better instructions in english and spanish so everybody can go over DPI. If you're a lawyer interested in net-neutrality stuff. I can help with the technical part! contact me. 
+Make better instructions in english and spanish so everybody can go over DPI. If you're a lawyer interested in net-neutrality stuff I can help with the technical part! contact me. 
