@@ -8,7 +8,7 @@ So I did the regular, started a ssh tunnel on a 443 port (my isp as a lot of isp
 
 And here it's a OpenVPN tunneled with stunnel which perfectly emulates https traffic to navigate internet freely... and with a little more privacy... Who knows what else are they looking with DPI. 
 
-To make some sense of this, I ran some tests (check testing.txt) on a typical Windows 10 machine, no VMs, no strange stuff, a "standard client setup" (I hate Windows 10... but it's what the people uses today). The tests were all directed to a NYC server with and without VPNs and tunnels set on a NYC virtual machine on Digital Ocean's servers.
+To make some sense of this, I ran some tests (check testing.txt) on a typical Windows 10 machine, no VMs, no strange stuff, a "standard client setup" (I hate Windows 10... but it's what the people uses today). The tests were all directed to a NYC server with and the VPN and tunnel are set up on a NYC virtual machine on Digital Ocean's servers.
 
 The video showing the legitimacy of the tests: https://youtu.be/--y2S0syxVI
 
