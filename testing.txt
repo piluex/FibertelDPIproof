@@ -1,0 +1,23 @@
+Testing Fibertel DPI policy : )
+--------------------------------
+No vpn:
+Fibertel (Prima) <-> Optimum online
+Test 1:
+Test 2:
+Test 3:
+Regular UDP vpn (should be the faster VPN) port 1194:
+Fibertel (Prima) <-> NYC Digital Ocean OpenVPN <-> Optimum online
+Test 1:
+Test 2:
+Test 3:
+Regular TCP vpn (should be the slower VPN) port 443:
+Fibertel (Prima) <-> NYC Digital Ocean OpenVPN <-> Optimum online
+Test 1:
+Test 2:
+Test 3:
+Regular TCP vpn tunneled with stunnel (should be slower, too much overhead!):
+Fibertel (Prima) <-> NYC Digital Ocean stunnel <-> OpenVPN (same host) <-> Optimum online
+Test 1:
+Test 2:
+Test 3:
+
